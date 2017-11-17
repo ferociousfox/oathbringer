@@ -9,6 +9,11 @@
   display: table;
   clear: both;
 }
+h1{
+  text-align: center;
+
+
+}
 .top{
   background-color: #eddec9;
 }
@@ -48,6 +53,27 @@ div.caption{
   border-radius: 49px;
   padding: 5px;
   color: #e89bbd;
+}
+div.table{
+  background-color: #133380;
+  position:absolute;
+  top: 43%;
+  right: 12%;
+}
+th {
+  text-align: center;
+  color: #fff2ad;
+  background: #575e7b;
+  padding: 22px;
+  width: 100%;
+}
+td {
+  text-align: center;
+  color: #f8c788;
+  background-color: #6f4631;
+  border: solid 1px;
+  padding: 5px;
+  width: 100%;
 }
 .foot {
   background-color: #182538;
