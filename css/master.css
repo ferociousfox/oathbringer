@@ -1,0 +1,36 @@
+/** {
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0;
+}*/
+
+body{
+
+}
+
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.top{
+  background-color: grey;
+}
+.top img {
+  max-width: 100px;
+}
+.main {
+  background-color: blue;
+  /*display: inline;*/
+  padding: 20px;
+}
+
+
+.foot{
+  background-color: red;
+}
+.foot img{
+  max-width: 200px;
+  float: left;
+}
