@@ -9,13 +9,12 @@
   display: table;
   clear: both;
 }
-h1{
-  text-align: center;
 
-
-}
 .top{
   background-color: #eddec9;
+}
+.nav:hover{
+  color: white;
 }
 .nav {
   text-align: center;
@@ -33,10 +32,12 @@ h1{
   max-width: 100px;
 }
 .main {
+  display: block;
   background-color: #dd8a52;
   padding: 20px;
 }
 div.img-card{
+  display: block;
   float: left;
   width: 49%;
   margin: 2px;
@@ -78,13 +79,16 @@ td {
 .foot {
   background-color: #182538;
 }
-.foot.cf img{
+.foot.cf img {
   padding: 8px;
   margin: 18px;
   max-width: 200px;
   float: left;
 }
-.foot.cf p{
+.foot.cf p::first-line{
+  color: #a577da;
+}
+.foot.cf p {
   text-align: right;
   color: #e1a162;
   padding: 24px;
